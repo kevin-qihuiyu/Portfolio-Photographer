@@ -6,7 +6,9 @@ import { PropTypes } from 'prop-types';
 const MasonryBox = ({ wallSrc, userProf, userName, userJob }) => {
   return (
     <div className={styles["my-masonry"]}>
-        <img src={wallSrc} style={{ width: "100%" }} alt="" />
+        <a href={wallSrc} >
+          <img src={wallSrc} href={wallSrc} style={{ width: "100%" }} alt="" />
+        </a>
         <div className={`${styles["my-masnry-description"]} flex`}>
           <div className={`${styles["my-masnry-user-box"]} flex align-items-center`}>
             <div className={styles["my-masnry-user-prof"]}>

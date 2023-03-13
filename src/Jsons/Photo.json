@@ -3,83 +3,137 @@
         "all": [
             {
                 "id": "photo 1",
-                "src": "img/photo/1.jpg",
+                "src": "img/photo/l0001.jpg",
                 "user": {
-                    "src": "img/profile/1.jpg",
-                    "name": "Arash",
-                    "job": "Designer"
-                }
-            },
-            {
-                "id": "photo 2",
-                "src": "img/photo/2.jpg",
-                "user": {
-                    "src": "img/profile/2.png",
-                    "name": "Farbod",
-                    "job": "Scientist"
-                }
-            },
-            {
-                "id": "photo 3",
-                "src": "img/photo/3.jpg",
-                "user": {
-                    "src": "img/profile/1.jpg",
-                    "name": "Anne",
-                    "job": "Graphic Designer"
+                    "src": "img/profile/1.png",
+                    "name": "Moving car in the street",
+                    "job": "f7.1 1/200 ISO100"
                 }
             },
             {
                 "id": "photo 4",
-                "src": "img/photo/4.jpg",
+                "src": "img/photo/l0004.jpg",
                 "user": {
-                    "src": "img/profile/4.jpg",
-                    "name": "James",
-                    "job": "editor"
+                    "src": "img/profile/1.png",
+                    "name": "Light from the heaven",
+                    "job": "f7.1 1/200 ISO100"
+                }
+            },
+            {
+                "id": "photo 11",
+                "src": "img/photo/p0003.jpg",
+                "user": {
+                    "src": "img/profile/2.png",
+                    "name": "Jump",
+                    "job": "f7.1 1/200 ISO100"
                 }
             },
             {
                 "id": "photo 5",
-                "src": "img/photo/5.jpg",
+                "src": "img/photo/l0005.jpg",
                 "user": {
-                    "src": "img/profile/5.jpg",
-                    "name": "Mary",
-                    "job": "Developer"
+                    "src": "img/profile/2.png",
+                    "name": "Skycrapers in the mist",
+                    "job": "f7.1 1/200 ISO100"
                 }
             },
             {
                 "id": "photo 6",
-                "src": "img/photo/6.jpg",
+                "src": "img/photo/l0006.jpg",
                 "user": {
-                    "src": "img/profile/3.png",
-                    "name": "Patricia",
-                    "job": "Front-End"
+                    "src": "img/profile/1.png",
+                    "name": "Light passage",
+                    "job": "f7.1 1/200 ISO100"
                 }
             },
             {
                 "id": "photo 7",
-                "src": "img/photo/7.jpg",
+                "src": "img/photo/l0007.jpg",
                 "user": {
-                    "src": "img/profile/4.jpg",
-                    "name": "Jennifer",
-                    "job": "Front-End"
+                    "src": "img/profile/1.png",
+                    "name": "Fast moving man",
+                    "job": "f7.1 1/200 ISO100"
                 }
             },
             {
                 "id": "photo 8",
-                "src": "img/photo/8.jpg",
+                "src": "img/photo/l0008.jpg",
                 "user": {
-                    "src": "img/profile/1.jpg",
-                    "name": "Richard",
-                    "job": "Product Designer"
+                    "src": "img/profile/1.png",
+                    "name": "Moving car in the street 2",
+                    "job": "f7.1 1/200 ISO100"
+                }
+            },
+            {
+                "id": "photo 12",
+                "src": "img/photo/p0004.jpg",
+                "user": {
+                    "src": "img/profile/2.png",
+                    "name": "Toki the Corgi",
+                    "job": "f7.1 1/200 ISO100"
+                }
+            },
+            {
+                "id": "photo 13",
+                "src": "img/photo/p0005.jpg",
+                "user": {
+                    "src": "img/profile/2.png",
+                    "name": "Madamoiselle",
+                    "job": "f7.1 1/200 ISO100"
                 }
             },
             {
                 "id": "photo 9",
-                "src": "img/photo/9.jpg",
+                "src": "img/photo/p0001.jpg",
                 "user": {
                     "src": "img/profile/2.png",
-                    "name": "Joseph",
-                    "job": "Designer"
+                    "name": "Statue",
+                    "job": "f7.1 1/200 ISO100"
+                }
+            },
+            {
+                "id": "photo 10",
+                "src": "img/photo/p0002.jpg",
+                "user": {
+                    "src": "img/profile/1.png",
+                    "name": "Bike user",
+                    "job": "f7.1 1/200 ISO100"
+                }
+            },
+            {
+                "id": "photo 2",
+                "src": "img/photo/l0002.jpg",
+                "user": {
+                    "src": "img/profile/1.png",
+                    "name": "Gare de Lyon",
+                    "job": "f7.1 1/200 ISO100"
+                }
+            },
+            {
+                "id": "photo 3",
+                "src": "img/photo/l0003.jpg",
+                "user": {
+                    "src": "img/profile/1.png",
+                    "name": "Lovers by the seine",
+                    "job": "f7.1 1/200 ISO100"
+                }
+            },
+            {
+                "id": "photo 14",
+                "src": "img/photo/p0006.jpg",
+                "user": {
+                    "src": "img/profile/1.png",
+                    "name": "The photographer",
+                    "job": "f7.1 1/200 ISO100"
+                }
+            },
+            {
+                "id": "photo 15",
+                "src": "img/photo/p0007.jpg",
+                "user": {
+                    "src": "img/profile/2.png",
+                    "name": "The girl and the Corgi",
+                    "job": "f7.1 1/200 ISO100"
                 }
             }
         ],
@@ -117,7 +171,7 @@
                 "id": "photo 2",
                 "src": "img/photo/3.jpg",
                 "user": {
-                    "src": "img/profile/1.jpg",
+                    "src": "img/profile/1.png",
                     "name": "Anne",
                     "job": "Graphic Designer"
                 }
@@ -162,7 +216,7 @@
                 "id": "photo 7",
                 "src": "img/photo/8.jfif",
                 "user": {
-                    "src": "img/profile/1.jpg",
+                    "src": "img/profile/1.png",
                     "name": "Richard",
                     "job": "Product Designer"
                 }
@@ -211,7 +265,7 @@
                 "id": "photo 1",
                 "src": "img/photo/8.jfif",
                 "user": {
-                    "src": "img/profile/1.jpg",
+                    "src": "img/profile/1.png",
                     "name": "Richard",
                     "job": "Product Designer"
                 }

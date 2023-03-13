@@ -2,9 +2,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: -30px;
+    /* margin-left: -30px; */
     width: auto;
 }
 .my-masonry-grid_column {
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }

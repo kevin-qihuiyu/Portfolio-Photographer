@@ -46,27 +46,38 @@ const App = () => {
 
   const [categoryImage, setCategoryImage] = useState(images.categories.all)
 
-  const takeDdTitle = (ddTitle) => {
-    setCategoryImage(() => {
-      let categoryChoose = Object.keys(images.categories).filter(item => {
-        const titleSplited = ddTitle.toLowerCase().split(" ")[0]
-        return item.toLowerCase().includes(titleSplited)
-      })
-      return [ ...images.categories[categoryChoose] ]
-    })
+  const shuffleArray = array => {
+    // if (typeof array !== 'undefined')
+    // {
+    //   for (let i = array.length - 1; i > 0; i--) {
+    //     const j = Math.floor(Math.random() * (i + 1));
+    //     const temp = array[i];
+    //     array[i] = array[j];
+    //     array[j] = temp;
+    //   }
+    // }
   }
+
+  // const takeDdTitle = (ddTitle) => {
+  //   setCategoryImage(() => {
+  //     let categoryChoose = Object.keys(images.categories).filter(item => {
+  //       const titleSplited = ddTitle.toLowerCase().split(" ")[0]
+  //       return item.toLowerCase().includes(titleSplited)
+  //     })
+  //     return [ ...images.categories[categoryChoose] ]
+  //   })
+  // }
 
   return (
     <>
-        <Header />
-        
+        <Header />        
         <div className="flex justify-content-center" style={{ marginTop: "0px", padding: '0px' }}>
           <ContainerCard>
               {/* <div className={`${styles["gallery-setting"]} flex justify-content-between align-items-center`}>
                 <h1>All images</h1>
                 <Dropdown title="All Images" items={ddItems} liftingDdTextUp={takeDdTitle} />
               </div> */}
-              <MasonryLayout images={categoryImage} />
+              <MasonryLayout images={images.categories.all} />
           </ContainerCard>
         </div>
     </>
