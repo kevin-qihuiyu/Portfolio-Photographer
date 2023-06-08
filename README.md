@@ -1,3 +1,6 @@
 # Les Beaux Moment - Portfolio of a Photographer
-Work in progress
 
+Published on https://les-beaux-moments.netlify.app/
+
+To run the app: 
+    npm start

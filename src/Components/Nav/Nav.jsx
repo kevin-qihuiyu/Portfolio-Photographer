@@ -13,14 +13,17 @@ const Nav = () => {
     <nav className={`${styles.nav} flex align-items-center`}>
         <h1 className={styles["nav-title"]}>Les Beaux Moments</h1>
         <ul className={`flex align-items-center ${styles["navbar-nav"]}`}>
-            <li className={`${styles["nav-item"]} ${styles.active}`}>
-                <a href="" className={styles["nav-link"]}>Home</a>
+            {/* <li className={`${styles["nav-item"]} ${styles.active}`}>
+                <a href="/" className={styles["nav-link"]}>Black & White</a>
+            </li> */}
+            <li className={`${styles["nav-item"]}`}>
+                <a href="/" className={styles["nav-link"]}>Black & White</a>
             </li>
             <li className={styles["nav-item"]}>
-                <a href="" className={styles["nav-link"]}>Photo</a>
+                <a href="/colors" className={styles["nav-link"]}>Colors</a>
             </li>
             <li className={styles["nav-item"]}>
-                <a href="" className={styles["nav-link"]}>About Me</a>
+                <a href="/contact" className={styles["nav-link"]}>Contact</a>
             </li>
             {/* <li className={`${styles["nav-item"]} ${styles["d-none-1100"]}`}>
                 <a href="" className={styles["nav-link"]}>Explore</a>
